@@ -27,6 +27,5 @@ jobs:
         uses: ncipollo/release-action@v1
         with:
           artifacts: "build/app/outputs/flutter-apk/*.apk"
-          commit: master
           tag: v1.0.${{ github.run_number }}
 
